@@ -1,0 +1,80 @@
+
+  body{
+    background-color: #EEEEEE ;
+  }
+
+  ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:white;
+    width:431px;
+    height: 54px;
+    position: fixed;
+    top: 0px;
+  }
+ 
+  li {
+    float: left;
+  }
+  
+  button {
+    background-color:  white ;
+    border: none;
+    color: grey;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 39px;
+    height: 42px;
+  }
+
+  .icon {
+    margin-top: -17px;
+    
+  }
+
+  .toolbar #settings {
+
+    width: 60%;
+    position: fixed;
+    top: 1px;
+    left: 430px;
+    width: 1175px;
+    height: 54px;
+  }
+
+  .toolbar #ruler {
+
+    width: 120%;
+    position: fixed;
+    top: 55px;
+    box-shadow: 6px 1px 6px grey ;
+  }
+
+
+  .page {
+    height: 900px;
+    margin-left :531px  ;
+    margin-right :241px;
+    margin-top :90px;
+    margin-bottom :20px;
+    padding-top: 20px ;
+    padding-left: 90px ;
+    padding-right: 90px ;
+    padding-bottom: 90px ;
+    background-color: #FFFFFF ;
+    box-shadow: 0 2px 3px grey ;
+    
+  }
+
+  select {
+  height: 59px;
+  }
+

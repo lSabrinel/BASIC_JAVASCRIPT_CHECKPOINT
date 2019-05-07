@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>BASIC JAVASCRIPT CHECKPOINT</title>
+
+</head>
+<body>
+
+    <ul>
+
+        <li>  
+            
+            <select onchange="changeFont(this)">
+                <option value="gill"selected="gill">        gill             </option>
+                <option value="helvetica">                  helvetica        </option>
+                <option value="cursive">                    cursive          </option>
+                <option value="fantasy">                    fantasy          </option>
+                <option value="serif">                      serif            </option>
+                <option value="sans-serif">                 sans-serif       </option>
+                <option value="monospace">                  monospace        </option>
+            </select>
+           
+        
+        </li>
+
+        <li>   
+            <select onchange="changeSize(this)">
+                <option value="14px">14</option>
+                <option value="20px">20</option>
+                <option value="30px">30</option>
+                <option value="40px">40</option>
+            </select>
+              
+        </li>
+
+    <li><button  onclick="changeBold()"        >  <img src="B-bold.PNG"        alt="BoldIcon"       class="icon"></button></li>
+    <li><button  onclick="changItalic()"       >  <img src="I-italic.PNG"      alt="ItalicIcon"     class="icon"></button></li>
+    <li><button  onclick="changeUnderlined()"  >  <img src="U-underlined.PNG"  alt="UnderlinedIcon" class="icon"></button></li>
+       
+
+    </ul>
+
+    <div class="toolbar">
+        <img src="half-toolbar.PNG" alt="settings" id="settings">
+        <img src="ruler.PNG" alt="ruler" id="ruler">
+    </div>
+
+
+    <div class="page">
+
+        
+
+        <h1 >Basic Javascript </h1>
+        <dl>
+            <dt>Checkpoint (easy):</dt>
+            <dd id="text">
+                We're going to make a programm that looks like Microsoft Word .
+                There will be one paragraph and a bunch of buttons .
+                Each button will have an onclick attribute that will link to a diffrent
+                Javascript function . 
+                These buttons will have unique names and should do the following .
+            </dd>
+    
+        </dl>
+
+        
+
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
